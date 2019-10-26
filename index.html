@@ -17,31 +17,42 @@
 
   <link rel="stylesheet" href="src\css\style.css">
   <link rel="stylesheet" href="src\css\normalize.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&display=swap" rel="stylesheet">
+  <!--Descargue la familia Roboto en fonts pero hay wue hacer el set up de las font face y convertirlas. No es importante por ahora-->
+
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="src\css\bootstrap.min.css">
   <link rel="stylesheet" href="src\css\bootstrap-theme.min.css">
 
   <script src="src\js\modernizr-3.7.1.min.js"></script>
-  <script src="src\js\bootstrap.js"></script>
   <script src="src\js\bootstrap.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3p>-->
 
 </head>
 
 <body>
 
-  <nav class="navbar navbar-light bg-light">
+  <nav class="navbar navbar-light">
     <div class="nav_menu">
-        <img src="src\img\icon-menu.svg" width="17" height="15" alt="menu">
+        <img src="src\img\icon-menu.svg" width="20" height="17" alt="menu">
     </div>
-      
-    <input class="form-inline nav-items" type="text" value="Nombre de flujo" name="Flow name" class="nav_flow_name" id=""></input>
-    <img src="#">
-    <a href="#" alt="profile">
-      <img src="src\img\favicon.png">
+    <form class="form-inline my-2 my-lg-0 form_menu">
+      <input class="form-control mr-sm-2" type="text" placeholder="Flowscope name" aria-label="Name" id="#flow_name">
+    </form>
+    <span class="navbar-text" id="#area_name">Area name</span>
+    <img src="src\img\icon-search.svg" width="24" height="20" alt="search" id="search">
+    <a href="#" class="navbar-brand" alt="profile">
+      <img src="src\img\avatar.png" alt="profile_pic">
     </a>
   </nav>
-  
-  <p>Hello world! This is HTML5 Boilerplate.</p>
 
+  <section id="grid">
+    
+  </section>
+  
 </body>
 
 </html>
