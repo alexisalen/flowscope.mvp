@@ -109,11 +109,7 @@ padding-top: 0.35em !important;
   .navbar-text {
     display: none !important;
   }
-
 }
-
-
-
 
 @media screen and (max-width:760px) {
   .navbar-text {
@@ -135,4 +131,10 @@ padding-top: 0.35em !important;
     display: none;
   }
 
+}
+
+#grid .btn {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 12px;
 }
