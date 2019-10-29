@@ -1,29 +1,29 @@
 body,
 html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .caja {
-  top: 13.5em;
-  /* 216px - 16px*/
-  left: 21.125em;
-  /* 338px - 16px*/
-  width: 16.25em;
-  /* 260px - 16px*/
-  height: 5.625em;
-  /* 90px - 16px*/
-  background: white;
-  border: 1px solid #C7D0D2;
-  border-radius: 3px;
-  opacity: 1;
+    /* top: 13.5em; */
+    /* 216px - 16px*/
+    left: 21.125em;
+    /* 338px - 16px*/
+    width: 16.25em;
+    /* 260px - 16px*/
+    height: 5.625em;
+    /* 90px - 16px*/
+    background: white;
+    border: 1px solid #C7D0D2;
+    border-radius: 3px;
+    opacity: 1;
 }

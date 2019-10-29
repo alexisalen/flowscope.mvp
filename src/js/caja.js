@@ -1,14 +1,13 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     var boton = $("#crear_caja");
     var grid = $("#grid");
 
-    boton.click(function () {
+    boton.on('click', function() {
         var newCaja = document.createElement("div");
         $(newCaja).addClass("caja");
-        console.log(newCaja);
 
-        /* grid.createElement("p");
-        /*$(newCaja).draggable();*/
+        grid.append(newCaja);
+        $(newCaja).draggable();
     });
 });
